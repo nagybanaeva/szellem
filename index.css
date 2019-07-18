@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+
+  * {
+    margin: 0;
+   	padding: 0;
+}
+
+body {
+   background: linear-gradient(to right top, blue, darkblue);
+   background-size: cover; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: "Patua One", serif;
+   color: rgba(0,0,0,0.8);
+}
+
+#image {
+    cursor: pointer;
+    transition: transform .2s;
+    transform: scale(1);
+    user-select: none;
+}
+
+h2 {
+	font-size: 2.5em;
+	padding: 1em 0;
+	text-align: center;
+}
+
+p {
+	color: whitesmoke;
+	font-size: 2em;
+	text-align: center;
+}
+
+h1:active {
+    transform: scale(.9);
+}
+
+img {
+	position: fixed;
+}
