@@ -1,9 +1,7 @@
-  window.onLoad = Prep();
-            
-            function Prep(){
+window.onLoad = Prep();
+            function Prep()  {
                 window_Height = window.innerHeight;
                 window_Width = window.innerWidth;
-                
                 image_Element = document.getElementById("image");
                 image_Height = image_Element.clientHeight;
                 image_Width = image_Element.clientWidth;
@@ -23,7 +21,6 @@
                 image_Element.style.left = randNum_H + "px";
             }
 
-
 var ghost = 0;
 var ghostSzamlalo = document.querySelector("#ghostCounter");
 var Ghost = document.querySelector(".ghost");
@@ -34,4 +31,3 @@ function ghostCsinalo () {
 }
 
 Ghost.addEventListener("click", ghostCsinalo);
-
