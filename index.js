@@ -9,7 +9,7 @@ window.onLoad = Prep();
                 availSpace_V = window_Height - image_Height;
                 availSpace_H = window_Width - image_Width;
                 
-                var changeInterval = 800; 
+                var changeInterval = 1000; 
                 setInterval(moveImage, changeInterval);
             }
             
@@ -31,3 +31,4 @@ function ghostCsinalo () {
 }
 
 Ghost.addEventListener("click", ghostCsinalo);
+Ghost.addEventListener("touchstart", ghostCsinalo);
